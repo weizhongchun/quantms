@@ -40,6 +40,11 @@
         "https://github.com/bigbio/nf-modules.git": {
             "modules": {
                 "bigbio": {
+                    "pmultiqc": {
+                        "branch": "main",
+                        "git_sha": "94ad5a6b97436e0a22c3a5cafa3adebcabc343e6",
+                        "installed_by": ["modules"]
+                    },
                     "thermorawfileparser": {
                         "branch": "main",
                         "git_sha": "a1a4a11ff508b2b5c23c9fb21c51c3327b748d4d",

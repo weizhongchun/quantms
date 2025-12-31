@@ -21,7 +21,7 @@ include { CREATE_INPUT_CHANNEL } from '../subworkflows/local/create_input_channe
 include { DDA_ID } from '../subworkflows/local/dda_id/main'
 
 // Modules import from the pipeline
-include { PMULTIQC as SUMMARY_PIPELINE } from '../modules/local/pmultiqc/main'
+include { PMULTIQC as SUMMARY_PIPELINE } from '../modules/bigbio/pmultiqc/main'
 include { GENERATE_DECOY_DATABASE } from '../modules/local/openms/generate_decoy_database/main'
 
 /*
